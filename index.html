@@ -1,0 +1,173 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System Colors</title>
+    <style>
+      body {
+        background-color: Canvas;
+        color-scheme: light dark;
+        color: CanvasText;
+        font-family: ui-sans, sans-serif;
+        font-size: 1.05em;
+        line-height: 1.5em;
+        margin: auto;
+        max-width: 70ch;
+        padding: 4rem 1rem;
+        > :first-child {
+          margin-top: 0;
+        }
+        > :last-child {
+          margin-bottom: 0;
+        }
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 2em 0 1rem;
+      }
+      article,
+      blockquote,
+      header,
+      footer,
+      ol,
+      ul,
+      hr,
+      p,
+      pre {
+        margin: 1.5em 0;
+      }
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+      }
+
+      .colors {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+        list-style-type: none;
+        margin-top: 4rem;
+        padding: 0;
+
+        li,
+        figure {
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      .color {
+        aspect-ratio: 4/3;
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>System Colors</h1>
+    <p>
+      All CSS system colors at a glance. Learn more:
+      <a href="https://css-tricks.com/system-things/"
+        >System *Things on CSS-Tricks</a
+      >
+    </p>
+
+    <ul class="colors">
+      <li>
+        <figure>
+          <div class="color" style="background-color: Canvas"></div>
+          <figcaption>Canvas</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: CanvasText"></div>
+          <figcaption>CanvasText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: LinkText"></div>
+          <figcaption>LinkText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: VisitedText"></div>
+          <figcaption>VisitedText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: ActiveText"></div>
+          <figcaption>ActiveText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: ButtonFace"></div>
+          <figcaption>ButtonFace</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: ButtonText"></div>
+          <figcaption>ButtonText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: ButtonBorder"></div>
+          <figcaption>ButtonBorder</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: Field"></div>
+          <figcaption>Field</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: FieldText"></div>
+          <figcaption>FieldText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: Highlight"></div>
+          <figcaption>Highlight</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: HighlightText"></div>
+          <figcaption>HighlightText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: Mark"></div>
+          <figcaption>Mark</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: MarkText"></div>
+          <figcaption>MarkText</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="color" style="background-color: GrayText"></div>
+          <figcaption>GrayText</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </body>
+</html>
